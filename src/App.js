@@ -5,7 +5,6 @@ import Library from "./components/Library";
 import Nav from "./components/Nav";
 import "./styles/app.scss";
 import data from "./data";
-import { playAudio } from "./util";
 
 function App() {
   const [songs, setSongs] = useState(data);
